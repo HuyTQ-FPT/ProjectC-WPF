@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Semester-7-FPT\\PRN221\\Project-C#-WPF-PRN221\\MyPRN221\\MyPRN221\\MyPRN221.csproj": {}
+    "C:\\Users\\HUY\\Documents\\GitHub\\PRN221MyProject\\ProjectC-WPF\\MyPRN221\\MyPRN221\\MyPRN221.csproj": {}
   },
   "projects": {
-    "E:\\Semester-7-FPT\\PRN221\\Project-C#-WPF-PRN221\\MyPRN221\\MyPRN221\\MyPRN221.csproj": {
+    "C:\\Users\\HUY\\Documents\\GitHub\\PRN221MyProject\\ProjectC-WPF\\MyPRN221\\MyPRN221\\MyPRN221.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Semester-7-FPT\\PRN221\\Project-C#-WPF-PRN221\\MyPRN221\\MyPRN221\\MyPRN221.csproj",
+        "projectUniqueName": "C:\\Users\\HUY\\Documents\\GitHub\\PRN221MyProject\\ProjectC-WPF\\MyPRN221\\MyPRN221\\MyPRN221.csproj",
         "projectName": "MyPRN221",
-        "projectPath": "E:\\Semester-7-FPT\\PRN221\\Project-C#-WPF-PRN221\\MyPRN221\\MyPRN221\\MyPRN221.csproj",
+        "projectPath": "C:\\Users\\HUY\\Documents\\GitHub\\PRN221MyProject\\ProjectC-WPF\\MyPRN221\\MyPRN221\\MyPRN221.csproj",
         "packagesPath": "C:\\Users\\HUY\\.nuget\\packages\\",
-        "outputPath": "E:\\Semester-7-FPT\\PRN221\\Project-C#-WPF-PRN221\\MyPRN221\\MyPRN221\\obj\\",
+        "outputPath": "C:\\Users\\HUY\\Documents\\GitHub\\PRN221MyProject\\ProjectC-WPF\\MyPRN221\\MyPRN221\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HUY\\AppData\\Roaming\\NuGet\\NuGet.Config",
