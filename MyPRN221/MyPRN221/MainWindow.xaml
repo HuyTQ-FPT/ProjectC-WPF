@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock>Huy</TextBlock>
+        <TextBlock>Huy </TextBlock>
+        <TextBlock>Hieu</TextBlock>
+        <TextBlock>Hieu123</TextBlock>
     </Grid>
 </Window>
