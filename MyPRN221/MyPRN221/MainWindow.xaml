@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock>Huy </TextBlock>
-        <TextBlock>Hieu12345</TextBlock>
+        <TextBlock>Hieu1567</TextBlock>
+        <TextBlock>Hieu156213127</TextBlock>
     </Grid>
 </Window>
