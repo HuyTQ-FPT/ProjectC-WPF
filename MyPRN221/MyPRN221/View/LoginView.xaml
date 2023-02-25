@@ -21,7 +21,7 @@
         <Border
             BorderThickness="5"
             CornerRadius="20"
-            Opacity="0.80">
+            Opacity="0.80"> 
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Offset="0" Color="#462ADB" />
@@ -203,6 +203,57 @@
                                 Stretch="Uniform" />
                         </PasswordBox.Background>
                     </PasswordBox>
+                    <Button
+                        x:Name="btnLogin"
+                        Margin="0,50,0,0"
+                        BorderThickness="0"
+                        Click="btnLogin_Click"
+                        Content="LOG IN"
+                        Cursor="Hand"
+                        FontFamily="Montserrat"
+                        FontSize="12"
+                        Foreground="White">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#462AD8" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#28AEED" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border
+                                    Width="150"
+                                    Height="40"
+                                    Background="{TemplateBinding Background}"
+                                    CornerRadius="20">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <StackPanel
+                        Margin="0,15,0,0"
+                        HorizontalAlignment="Center"
+                        Orientation="Horizontal">
+                        <TextBlock
+                            FontFamily="Montserrat"
+                            FontSize="12"
+                            FontWeight="Medium"
+                            Foreground="DarkGray"
+                            Text="Forgot Password?" />
+                        <TextBlock
+                            Margin="8,0,0,0"
+                            Cursor="Hand"
+                            FontFamily="Montserrat"
+                            FontSize="12"
+                            FontWeight="Medium"
+                            Foreground="White"
+                            Text="Reset" />
+                    </StackPanel>
                 </StackPanel>
             </Grid>
         </Border>
