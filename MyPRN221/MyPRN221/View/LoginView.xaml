@@ -16,12 +16,12 @@
     mc:Ignorable="d">
     <Border CornerRadius="20">
         <Border.Background>
-            <ImageBrush ImageSource="D:\PRN221\ProjectC-WPF\MyPRN221\MyPRN221\Images\BackGround.png" />
+            <ImageBrush />
         </Border.Background>
         <Border
             BorderThickness="5"
             CornerRadius="20"
-            Opacity="0.80"> 
+            Opacity="0.80">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Offset="0" Color="#462ADB" />
@@ -129,8 +129,7 @@
                     <Image
                         Width="100"
                         Height="100"
-                        Opacity="50"
-                        Source="D:\PRN221\ProjectC-WPF\MyPRN221\MyPRN221\Images\Logo.png" />
+                        Opacity="50" />
                     <TextBlock
                         HorizontalAlignment="Center"
                         FontFamily="Montserrat"
@@ -171,7 +170,6 @@
                         <TextBox.Background>
                             <ImageBrush
                                 AlignmentX="Left"
-                                ImageSource="D:\PRN221\ProjectC-WPF\MyPRN221\MyPRN221\Images\profile (1).png"
                                 Opacity="100"
                                 Stretch="Uniform" />
                         </TextBox.Background>
@@ -197,10 +195,7 @@
                         FontWeight="Medium"
                         Foreground="White">
                         <PasswordBox.Background>
-                            <ImageBrush
-                                AlignmentX="Left"
-                                ImageSource="D:\PRN221\ProjectC-WPF\MyPRN221\MyPRN221\Images\key (1).png"
-                                Stretch="Uniform" />
+                            <ImageBrush AlignmentX="Left" Stretch="Uniform" />
                         </PasswordBox.Background>
                     </PasswordBox>
                     <Button

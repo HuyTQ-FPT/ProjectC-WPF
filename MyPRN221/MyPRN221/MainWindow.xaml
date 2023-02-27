@@ -50,7 +50,7 @@
                         Margin="15,0,0,0"
                         Orientation="Horizontal">
 
-                        <Image Height="30" Source="D:\PRN221\ProjectC-WPF\MyPRN221\MyPRN221\Images\Logo.png" />
+                        <Image Height="30" />
                         <TextBlock
                             Margin="10,0,0,0"
                             VerticalAlignment="Center"
